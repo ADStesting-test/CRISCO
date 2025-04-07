@@ -1,0 +1,75 @@
+{
+    "road": ["straight road", "crossing", "T-junction"],
+    "weather": ["sunny", "rainy", "foggy", "snowy", "windy", "cloudy", "dusk", "night"],
+    "behaviors": ["follow vehicle", "follow lane", "change lane", "cut in", "cut out", "vehicle cross", "turn around", "brake", "park", "retrograde", "walk along road", "walk cross road"],
+    "behaviors_straight": ["follow vehicle", "follow lane", "change lane", "cut in", "cut out", "brake", "park", "retrograde", "walk along road", "walk cross road"],
+    "patterns_straight": [
+        [
+            "follow lane",
+            "cut in"
+        ],
+        [
+            "follow vehicle",
+            "follow lane",
+            "cut out"
+        ],
+        [
+            "follow lane",
+            "retrograde"
+        ],
+        [
+            "retrograde",
+            "cut out"
+        ],
+        [
+            "pedestrian cross",
+            "park"
+        ]
+    ],
+    "patterns": [
+        [
+            "follow lane",
+            "cut in"
+        ],
+        [
+            "follow vehicle",
+            "follow lane",
+            "cut out"
+        ],
+        [
+            "vehicle cross",
+            "turn around"
+        ],
+        [
+            "vehicle cross",
+            "park",
+            "follow lane"
+        ],
+        [
+            "follow lane",
+            "retrograde"
+        ],
+        [
+            "vehicle cross",
+            "retrograde"
+        ],
+        [
+            "retrograde",
+            "cut out"
+        ],
+        [
+            "pedestrian cross",
+            "park"
+        ],
+        [
+            "pedestrian cross",
+            "vehicle cross"
+        ],
+        [
+            "pedestrian walk",
+            "turn around"
+        ]
+    ],
+    "hazard section": ["middle", "turning", "junction", "end"],
+    "hazard section straight": ["middle", "end"]
+}
