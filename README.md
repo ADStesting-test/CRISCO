@@ -1,5 +1,7 @@
 # Generating Critical Test Scenarios for Autonomous Driving Systems via Influential Behavior Patterns
 
+paper link: https://dl.acm.org/doi/pdf/10.1145/3551349.3560430
+
 This project contains the implementation of CRISCO.
 
 The generation approach requires the following dependencies to run:
