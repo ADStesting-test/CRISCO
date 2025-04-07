@@ -1,6 +1,6 @@
-# RACER: A Road Structure-based Approach to Test Planning Module of Autonomous Driving System
+# Generating Critical Test Scenarios for Autonomous Driving Systems via Influential Behavior Patterns
 
-This project contains the implementation of RACER.
+This project contains the implementation of CRISCO.
 
 The generation approach requires the following dependencies to run:
 
@@ -37,7 +37,7 @@ map: please put the "SanFrancisco-bin" in the map folder of Apollo (modules/map/
 To generate critical test scenarios, start the simulator and Apollo, and then:
 
 ``
-run generate_critical_scenarios.py in RACER, following the parameter: --r <the road type that you want to test the ADS on>
+run generate_critical_scenarios.py in CRISCO, following the parameter: --r <the road type that you want to test the ADS on>
 ``
 
 The road type can be: straight road, crossing, T-junction.
@@ -46,7 +46,7 @@ The safety-violation scenarios are recorded in the folder: safety_violation_scen
 To re-run a safety-violation scenario:
 
 ``
-run reproduce_safety_violation.py in RACER, following the parameter: --r <your scenario description file name> --s <the safety-violation scenario name> --w <the re-run mechanism>
+run reproduce_safety_violation.py in CRISCO, following the parameter: --r <your scenario description file name> --s <the safety-violation scenario name> --w <the re-run mechanism>
 ``
 
 ``
